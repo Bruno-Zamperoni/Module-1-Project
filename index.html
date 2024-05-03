@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jetpack</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="start-screen">
+        <img src="./Images/Logo.jpg" alt="" />
+        <br />
+        <button id="start">Start</button>
+        <p>Use the space bar to go up and down</p>
+        <p>If you reach 30 points, you win</p>
+        <img src="./Images/Space-bar.png" alt="" />
+      </div>
+      <div id="game-screen">
+        <p class="score">Score: <span id="score">0</span></p>
+      </div>
+      <div id="loser-screen">
+        <h1 class="last-text">You lose!</h1>
+        <button id="loser-restart-button" class="restart-button">Restart</button>
+      </div>
+      <div id="winner-screen">
+        <h1 class="last-text">Congratulations! You are the winner!</h1>
+        <button id="winner-restart-button" class="restart-button">Restart</button>
+      </div>
+    </main>
+    <script type="text/javascript" src="js/player.js"></script>
+    <script type="text/javascript" src="js/obstacle-platform.js"></script>
+    <script type="text/javascript" src="js/obstacle-ship.js"></script>
+    <script type="text/javascript" src="js/obstacle-car.js"></script>
+    <script type="text/javascript" src="js/bullet.js"></script>
+    <script type="text/javascript" src="js/obstacle-shooter.js"></script>
+    <script type="text/javascript" src="js/boss.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
